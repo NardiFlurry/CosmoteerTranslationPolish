@@ -368,7 +368,7 @@ Multiplayer
 	VoteNoFmt = "<bad>VOTE NO</bad>\n{0} votes"
 	VotePassed = "<good><s24>VOTE PASSED</s24></good>"
 	VoteFailed = "<bad><s24>VOTE FAILED</s24></bad>"
-	VoteWaitingFmt = "Waiting for {0} votes..."
+	VoteWaitingFmt = "Oczekiwanie na {0} głosów..."
 	LoadGameVoteFmt = "The host wants to load the saved game called \"<b>{0}</b>\"."
 
 	GameEndReason
@@ -379,31 +379,31 @@ Multiplayer
 		ReturnToGameSetup = &Deliberate
 	}
 
-	CpuNotSupported = "Unfortunately your computer's CPU does not have the necessary features to play multiplayer. Multiplayer requires a CPU with SSE2 support."
+	CpuNotSupported = "Niestety, CPU twojego komputera nie obsługuje funkcji wymaganych do gry wieloosobowej. Gra wieloosobowa wymaga CPU z obsługą zestawu instrukcji SSE2."
 }
 
 Pvp : Multiplayer
 {
 	WinnerFmt = "Wygrywa {0}!"
-	ForfeitTip = "Forfeit"
+	ForfeitTip = "Poddaj"
 	ForfeitConfirm = "Czy jesteś pewien że chcesz opuścić bitwę?"
 
 	Ranks
 	[
-		"1st"
-		"2nd"
-		"3rd"
-		"4th"
-		"5th"
-		"6th"
-		"7th"
-		"8th"
+		"1szy"
+		"2gi"
+		"3ci"
+		"4ty"
+		"5ty"
+		"6ty"
+		"7my"
+		"8my"
 	]
 
 	Scoreboard
 	{
-		PlayerName = "PLAYER"
-		Place = "PLACE"
+		PlayerName = "GRACZ"
+		Place = "POZYCJA"
 	}
 }
 
