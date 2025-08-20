@@ -347,27 +347,27 @@ Multiplayer
 	DefaultPlayerName = "Gracz bez nazwy"
 	Host = "Host"
 	AI = "A.I."
-	AINameFmt = "A.I. Player {0}"
-	Observer = "Observer"
-	Disconnected = "Disconnected"
-	Waiting = "This player is slowing down the game."
-	InComms = "This player is in communications with another ship."
+	AINameFmt = "Gracz A.I. {0}"
+	Observer = "Obserwator"
+	Disconnected = "Rozłączony"
+	Waiting = "Ten gracz spowalnia grę."
+	InComms = "Ten gracz właśnie komunikuje się z innym statkiem."
 	DefaultGameName = "Gra bez nazwy"
 	DefaultGameNameFmt = "Gra gracza {0}"
 	ShuttingDown = "Proszę czekać..."
 	TieGame = "REMIS"
 	TeamFmt = "Drużyna {0}"
-	PlayerLeftFmt = "{0} has left the game."
+	PlayerLeftFmt = "{0} opuścił grę."
 	NextGameCountdownFmt = "Powrót do fazy początkowej za {0} sekund..."
 	AddressAlreadyInUseFmt = "Inny program już używa tego portu UDP {0} i musi być zamknięty by móc zagrać w grę wieloosobową."
 	ErrorInitializingFmt = "Wystąpił błąd podczas inicjalizowania gry wieloosobowej: {0}"
-	LeftClickBuyShip = "Left-click to buy ship."
-	RightClickChangeShip = "Right-click to change ship."
-	Vote = "VOTE!!!"
-	VoteYesFmt = "<good>VOTE YES</good>\n{0} votes"
-	VoteNoFmt = "<bad>VOTE NO</bad>\n{0} votes"
-	VotePassed = "<good><s24>VOTE PASSED</s24></good>"
-	VoteFailed = "<bad><s24>VOTE FAILED</s24></bad>"
+	LeftClickBuyShip = "LPM by kupić statek."
+	RightClickChangeShip = "RPM by zmienić statek."
+	Vote = "GŁOSUJ!!!"
+	VoteYesFmt = "<good>GŁOSUJ NA TAK</good>\n{0} głosów"
+	VoteNoFmt = "<bad>GŁOSUJ NA NIE</bad>\n{0} głosów"
+	VotePassed = "<good><s24>GŁOSOWANIE PRZESZŁO</s24></good>"
+	VoteFailed = "<bad><s24>GŁOSOWANIE NIE PRZESZŁO</s24></bad>"
 	VoteWaitingFmt = "Oczekiwanie na {0} głosów..."
 	LoadGameVoteFmt = "The host wants to load the saved game called \"<b>{0}</b>\"."
 
@@ -385,7 +385,7 @@ Multiplayer
 Pvp : Multiplayer
 {
 	WinnerFmt = "Wygrywa {0}!"
-	ForfeitTip = "Poddaj"
+	ForfeitTip = "Poddaj się"
 	ForfeitConfirm = "Czy jesteś pewien że chcesz opuścić bitwę?"
 
 	Ranks
@@ -3114,7 +3114,7 @@ Hud
 	NuggetCollectTooFar = "TOO FAR"
 	NuggetCollectAlreadyClaimed = "ALREADY CLAIMED"
 
-	ResourceCountStorageFullFmt = "{0} <bad>(Magazyn Full)</bad>"
+	ResourceCountStorageFullFmt = "{0} <bad>(Storage Full)</bad>"
 
 	EnableAll = "Enable All"
 	DisableAll = "Disable All"
@@ -3653,7 +3653,7 @@ ResourcesBox
 	ShowAllResourcesTip = "If checked, all resource types will be shown, even if your ship doesn't have any resources of a particular type."
 	ShowUnselectedResourceAssignment = "Show Unselected Resource Assignments"
 	ShowUnselectedResourceAssignmentTip = "If unchecked, will only show selected or hovered resource assignments."
-	ClearTileTypes = "Clear Magazyn Tile Designations"
+	ClearTileTypes = "Clear Storage Tile Designations"
 	ClearTileTypesTip = "Removes the resource type designation from every storage tile on the ship."
 	TransferCrewOrResources = "Transfer Crew / Resources..."
 	TransferCrewOrResourcesTip = "Transfer crew or resources from this ship to another ship."
@@ -3831,26 +3831,26 @@ BillOfSale
 
 EditorGroups
 {
-	None = "None"
-	WeaponsEnergy = "Energy Weapons"
-	WeaponsProjectile = "Projectile Weapons"
-	Defenses = "Obrona"
-	Control = "Ship Control"
-	Flight = "Thrusters"
-	Crew = "Crew"
+	None = "Żadne"
+	WeaponsEnergy = "Bronie Energetyczne"
+	WeaponsProjectile = "Bronie Kinetyczne"
+	Defenses = "Pancerz/Obrona"
+	Control = "Sterowanie Statkiem"
+	Flight = "Silniki"
+	Crew = "Załoga"
 	Power = "Zasilanie"
-	Thermal = "Heat Management"
-	ThermalDesc = "Tools for managing heat, including pipes, radiators, thermal batteries, and exchangers."
-	Production = "Production"
-	Magazyn = "Magazyn"
-	Utilities = "Utilities"
-	Structure = "Armor & Structure"
-	Rock = "Basic Rock"
-	ResourcesCommon = "Common Resources"
-	ResourcesRare = "Rare Resources"
-	Favorites1 = "Favorites A"
-	Favorites2 = "Favorites B"
-	Favorites3 = "Favorites C"
+	Thermal = "Ciepło"
+	ThermalDesc = "Narzędzia do radzenia sobie z ciepłem, wliczając rury, radiatory, baterie termiczne oraz absorbenty ciepła."
+	Production = "Produkcja"
+	Storage = "Magazyn"
+	Utilities = "Narzędzia"
+	Structure = "Pancerz i Rama"
+	Rock = "Zwykła Skała"
+	ResourcesCommon = "Pospolite Surowce"
+	ResourcesRare = "Rzadkie Surowce"
+	Favorites1 = "Ulubione A"
+	Favorites2 = "Ulubione B"
+	Favorites3 = "Ulubione C"
 	Favorites1Icon = "A"
 	Favorites2Icon = "B"
 	Favorites3Icon = "C"
@@ -3858,12 +3858,12 @@ EditorGroups
 
 DecalGroups
 {
-	Straights = "Basic Straights"
-	Curves = "Basic Curves"
-	Fades = "Basic Fades"
-	Shapes = "Complex Shapes"
-	Icons = "Symbols & Icons"
-	Text = "Text"
+	Straights = "Podstawowe Proste"
+	Curves = "Podstawowe Krzywe"
+	Fades = "Podstawowy Gradient"
+	Shapes = "Złożone Kształty"
+	Icons = "Symbole i Ikony"
+	Text = "Tekst"
 }
 
 CategoryNouns
@@ -3922,32 +3922,32 @@ Parts
 	ArmorWedgeIcon = &ArmorWedge
 	ArmorWedgeDesc = &ArmorDesc
 
-	ArmorStructureHybridTri = "Armor + Structure Triangle"
+	ArmorStructureHybridTri = "Pancerz + Rama Trójkąt"
 	ArmorStructureHybridTriIcon = "Arm. + Str.\nTriangle"
 	ArmorStructureHybridTriDesc = &ArmorDesc
 
-	ArmorStructureHybrid1x1 = "Armor + Structure Wedge"
-	ArmorStructureHybrid1x1Icon = "Arm. + Str.\nWedge"
+	ArmorStructureHybrid1x1 = "Pancerz + Rama Klin"
+	ArmorStructureHybrid1x1Icon = "Pan. + Rama\nKlin"
 	ArmorStructureHybrid1x1Desc = &ArmorDesc
 
-	ArmorStructureHybrid1x2 = "Armor + Structure 1x2 Wedge"
-	ArmorStructureHybrid1x2Icon = "Arm. + Str.\n1x2 Wedge"
+	ArmorStructureHybrid1x2 = "Pancerz + Rama 1x2 Klin"
+	ArmorStructureHybrid1x2Icon = "Pan. + Rama\n1x2 Klin"
 	ArmorStructureHybrid1x2Desc = &ArmorDesc
 
-	ArmorStructureHybrid1x3 = "Armor + Structure 1x3 Wedge"
-	ArmorStructureHybrid1x3Icon = "Arm. + Str.\n1x3 Wedge"
+	ArmorStructureHybrid1x3 = "Pancerz + Rama 1x3 Klin"
+	ArmorStructureHybrid1x3Icon = "Pan. + Rama\n1x3 Klin"
 	ArmorStructureHybrid1x3Desc = &ArmorDesc
 
 	CannonMed = "Standardowe Działo"
 	CannonMedIcon = "Działo"
-	CannonMedDesc = "Fires single rounds of projectile ammunition that can penetrate into enemy ships, sometimes starting fires."
-	CannonMedOverclock = "Overclocked Standard Cannon"
-	CannonMedOverclockDesc = "Fires salvos of multiple shells at higher velocity and longer range. Produces waste heat when firing."
+	CannonMedDesc = "Strzela pojedynczymi nabojami amunicji kinetycznej, która może penetrować wrogie statki, czasami wzniecając pożary."
+	CannonMedOverclock = "Przetakowane Standardowe Działo"
+	CannonMedOverclockDesc = "Strzela salwami pocisków o wyższej prędkości oraz dalszym zasięgu. Przegrzewa się gdy strzela."
 
 	CannonLarge = "Duże Działo"
 	CannonLargeIcon = &CannonLarge
 	CannonLargeDesc = "Łączy cztery pociski co znacznie zwiększa uszkodzenia i penetrację pocisku w porównaniu do Standardowego działa."
-	CannonLargeOverclock = "Overclocked Large Cannon"
+	CannonLargeOverclock = "Przetakowane Duże Działo"
 	CannonLargeOverclockDesc = "Causes each cannon shell to break apart upon impact into multiple smaller incendiary shells that each continue penetrating into the target ship. Produces waste heat when firing."
 
 	CannonDeck = "Deck Cannon"
@@ -4633,7 +4633,7 @@ Stats
 	CrewRequiredBeamsFmt = "<white>Crew Required:</white> <good>{0}-{1}</good> <gray>({0} per {2} beams)</gray>"
 	CommandPointsProvidedFmt = "<white>Command Points:</white> <good>+{0}<image name='command_points' colored='true'/></good> <gray>(provided)</gray>"
 	CommandPointsUsedFmt = "<white>Command Points:</white> <good>-{0}<image name='command_points' colored='true'/></good> <gray>(used)</gray>"
-	StorageTilesFmt = "<white>Magazyn:</white> <good>{0}</good> <gray>stacks</gray>"
+	StorageTilesFmt = "<white>Storage:</white> <good>{0}</good> <gray>stacks</gray>"
 	RailgunBuffExponentOverclockFmt = "<white>Railgun Buff Exponent:</white> <good>{0:0.##}</good> <gray>(<good>+{1:0.##}</good>)</gray>"
 	RailgunBuffFmt = "<gray>Increase to railgun damage, penetration, range, and projectile speed (per number of accelerators):</gray>\n"\
 	                 "  <TransparentWhite>0</TransparentWhite><white>1: </white><good>+{0:000}%</good> "\
@@ -5116,7 +5116,7 @@ Resource
 
 	Battery = "Battery"
 	BatteryPlural = "Power"
-	BatteryDesc = "Batteries used to power many different ship systems.\n\nUnlike other resources, batteries cannot be stored in Zatoka Magazynowas."
+	BatteryDesc = "Batteries used to power many different ship systems.\n\nUnlike other resources, batteries cannot be stored in storages."
 
 	Bullet = "Ammo"
 	BulletPlural = "Ammo"
@@ -5497,7 +5497,7 @@ Tutorials
 	{
 		Title = "Resource Management"
 		Manage = "To manage your ships resources, click the <white>Manage Resources</white> button."
-		Stacks = "Most resources are stored in <good>stacks</good> on <good>storage tiles</good>. Zatoka Magazynowas can hold stacks of any type. Weapons, factories, and other specialized parts can only hold resources that they actually use or produce."
+		Stacks = "Most resources are stored in <good>stacks</good> on <good>storage tiles</good>. Storages can hold stacks of any type. Weapons, factories, and other specialized parts can only hold resources that they actually use or produce."
 		Move = "To tell your crew to <good>move resources</good> from one tile to another, select the <white>Move Resources</white> tool, click the stack of resources you want to move, and then click the tile where they should be moved."
 		Designate = "You can also tell your crew to store <good>only a specific resource</good> in specific tiles. Click the button for the desired resource and then click on the tiles that should only store that resource. Your crew will try to store that resource in those tiles whenever possible and will not automatically store other resources in them."
 		Limits = "To <good>limit the quantity</good> of a resource stored on your ship, open the <img name='hamburger_up'/> menu and then select <white>Resource Desires &amp; Limits</white>."
