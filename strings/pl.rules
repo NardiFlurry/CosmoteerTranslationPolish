@@ -24,7 +24,7 @@ Misc
 	                             "To wynika prawie zawsze z powodu antywirusa, antymalware, lub antyransomware programu nieprawidłowo ograniczając Cosmoteer przed zapisaniem pliku."
 	LoadGameError = "Błąd ładowania gry: {0}"
 	ShipClassIncompatible = "Niekompatybilna klasa statku."
-	LoadingUncachedAssets = "Ładowanie nowych lub zaktualizowanych plików gry po raz pierwszy.\nTo może trwać dłużej niż zwykle."
+	LoadingUncachedAssets = "Ładowanie nowych lub zaktualizowanych plików gry po raz pierwszy.\nTo może potrwać dłużej niż zwykle."
 	OpenUrlConfirm = "Zminimalizuje to Cosmoteer i otworzy stronę w twojej przeglądarce."
 	ShortCostK = "{0:#,#,.#}K"
 	ShortCostM = "{0:#,#,,.#}M"
