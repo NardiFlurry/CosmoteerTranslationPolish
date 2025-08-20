@@ -1,0 +1,9 @@
+ID = nardi.polish_translation
+Name = "Polish Translation"
+Version = 0.0.2
+CompatibleGameVersions = ["0.30.0b"]
+ModifiesGameplay = false
+Author = "Nardi"
+Description = "It's my first ever mod. \n\n"\
+               "Yay!"
+StringsFolder = "strings"
